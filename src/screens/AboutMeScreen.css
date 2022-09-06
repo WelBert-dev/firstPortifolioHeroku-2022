@@ -1,0 +1,84 @@
+#main-sobre--container {
+    width: 100%;
+}
+
+#main-sobre--container div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-sobre--container > div > div {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#main-sobre--container div p{
+    font-size: 1rem;
+    font-family: cursive;
+    border: 4px double white;
+    padding: .5rem;
+    color: var(--main-color);
+    text-shadow: 0.05rem 0.05rem 0.00009rem black;
+    background-color: black;
+    text-align: justify;
+}
+
+#main-sobre--container div ul {
+    max-width: max-content;
+    font-size: 1rem;
+    font-family: cursive;
+    color: white;
+    text-shadow: 0.05rem 0.05rem 0.00009rem black;
+    list-style-position: inside;
+    padding: .5rem;
+}
+
+
+@media (max-width: 800px)
+{
+    .main-title {
+        margin-top: 0;
+    }
+
+    #main-sobre--container div {
+        justify-content: flex-start;
+    }
+
+    #main-sobre--container div p{
+        max-width: max-content;
+        font-size: .8rem;
+        margin: 0 1rem;
+    }
+
+    #main-sobre--container div ul {
+        max-width: max-content;
+        font-size: .8rem;
+        margin: 1rem;
+        padding: 0;
+    }
+    
+}
+
+@media (max-width: 425px)
+{
+    #main-sobre--container .main-title {
+        margin-top: 3rem;
+    }
+
+    #main-sobre--container div p{
+        max-width: max-content;
+        font-size: .7rem;
+        margin: 1rem;
+    }
+
+    #main-sobre--container div ul {
+        font-size: .7rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    #main-sobre--container div {
+        justify-content: flex-start;
+    }
+}
