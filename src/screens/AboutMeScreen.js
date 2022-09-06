@@ -13,8 +13,9 @@ export default function AboutMeScreen() {
                     $ Desenvolvedor e entusiasta do mundo da programação e tecnologia, focado na web2.0 de ponta a ponta 
                     com boa base na stack Backend e atualmente focado nas tecnologias Frontend, buscando experiência
                     em projetos reais e/ou em produção, vivendo e estudando programação todos os dias de segunda a segunda a 2 anos,
-                    pois alguém uma vez me disse "Obssessão vence do talento natural", e esta frase vem fazendo mais sentido cada dia!
-                    Sonhador e de uma familia humilde, um dia com certeza irei proporcionar melhoria a eles..
+                    pois alguém uma vez me disse "Obsessão vence do talento natural", e esta frase vem fazendo mais sentido cada dia!
+                    Sonhador e de uma familia humilde, um dia com certeza irei proporcionar melhoria aos meus..
+                    
                     "Um leão por dia", acredito que um dia chego la!
 
                     Obs: Trabalhando como freelancer nos dias atuais. $
