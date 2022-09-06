@@ -63,6 +63,9 @@
 {
     #main-sobre--container .main-title {
         margin-top: 3rem;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #main-sobre--container div p{
@@ -72,6 +75,7 @@
 
     #main-sobre--container div ul {
         margin: 0 1rem 1rem 1rem;
+        font-size: .9rem;
     }
 
     #main-sobre--container div {
