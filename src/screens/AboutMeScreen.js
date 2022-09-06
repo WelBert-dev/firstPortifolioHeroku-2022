@@ -15,7 +15,7 @@ export default function AboutMeScreen() {
                     em projetos reais e/ou em produção, vivendo e estudando programação todos os dias de segunda a segunda a 2 anos,
                     pois alguém uma vez me disse "Obsessão vence do talento natural", e esta frase vem fazendo mais sentido cada dia!
                     Sonhador e de uma familia humilde, um dia com certeza irei proporcionar melhoria aos meus..
-                    
+
                     "Um leão por dia", acredito que um dia chego la!
 
                     Obs: Trabalhando como freelancer nos dias atuais. $
@@ -23,7 +23,7 @@ export default function AboutMeScreen() {
                     <ul>
                         <li>Nacionalidade: Brasileira</li>
                         <li>Idade: 22 Anos</li>
-                        <li>Endereço: Rua Grécia, 544 Jardim Celani Salto - SP</li>
+                        <li>Endereço: Rua Grécia, Jardim Celani Salto - SP</li>
                         <li>CEP: 13326-130</li>
                     </ul>
                 </div>             
