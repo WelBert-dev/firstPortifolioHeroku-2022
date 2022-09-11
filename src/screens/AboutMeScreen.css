@@ -10,7 +10,7 @@
 }
 
 #main-sobre--container > div > div {
-    max-width: 1024px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -49,12 +49,12 @@
 
     #main-sobre--container div p{
         max-width: max-content;
-        margin: 0 1rem;
+        margin: 0 .5rem;
     }
 
     #main-sobre--container div ul {
         max-width: max-content;
-        margin: 1rem;
+        margin: .5rem;
         padding: 0;
     }
     
@@ -75,7 +75,7 @@
     }
 
     #main-sobre--container div ul {
-        margin: 0 1rem 1rem 1rem;
+        margin: 0;
         font-size: .9rem;
     }
 

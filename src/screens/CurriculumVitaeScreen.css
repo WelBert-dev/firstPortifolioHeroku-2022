@@ -413,7 +413,7 @@ padding: .5rem 1rem 0 1rem;
     }
 
     .template__professional .template__section__right {
-        border-left: 1px solid white;
+        border-left: 1px solid wheat;
     }
 
     .template__nameOccupation {
@@ -435,8 +435,8 @@ padding: .5rem 1rem 0 1rem;
     }
 
     .template__section__position::before {
-        background-color: white;
-        color: white;
+        background-color: wheat;
+        color: wheat;
         font-size: 8px;
         content: '.';
         font-family: 'Icons Templates';
@@ -449,8 +449,8 @@ padding: .5rem 1rem 0 1rem;
     } 
 
     .template__section__degree::before {
-        background-color: white;
-        color: white;
+        background-color: wheat;
+        color: wheat;
         font-size: 8px;
         content: '.';
         font-family: 'Icons Templates';
