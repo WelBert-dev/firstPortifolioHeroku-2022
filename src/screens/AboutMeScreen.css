@@ -145,7 +145,6 @@
     }
 
     .main-sobre--shellHead > span{
-        position: absolute;
-        margin-bottom: -1rem;
+        display: none;
     }
 }
