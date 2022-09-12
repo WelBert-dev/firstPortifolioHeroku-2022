@@ -76,6 +76,11 @@
     font-size: .7rem;
 }
 
+.main-sobre--shellHeadWindowCommomIcons > i > svg {
+    font-size: 1.5rem;
+    height: 1.5rem;
+}
+
 
 .main-sobre--shellUser {
     color: red;
