@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-#main-sobre--container div {
+#main-sobre--container > div {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,15 +15,15 @@
     padding: 0 1rem;
 }
 
-#main-sobre--container div p{
+#main-sobre--container > div p{
     font-size: 1rem;
     font-family: cursive;
-    border: 4px double white;
-    padding: .5rem;
     color: var(--main-color);
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
-    background-color: black;
+    background-color: rgb(32, 10, 28);
     text-align: justify;
+    padding: .5rem;
+    box-shadow: 2px 2px 3px black;
 }
 
 #main-sobre--container div ul {
@@ -36,10 +36,63 @@
     padding: .5rem;
 }
 
+.main-sobre--shellHead {
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: black;
+    padding: .5rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 3px black;
+}
+
+.main-sobre--shellHead i > svg{
+    font-size: 2rem;
+    max-width: fit-content;
+    background-color: #282828;
+    height: 2rem;
+    border-radius: 5px;
+    padding: .3rem;
+    color: white;
+    margin-right: .5rem;
+}
+
+.main-sobre--shellHeadWindowCommomIcons > i > svg{
+    border-radius: 50%;
+}
+
+.main-sobre--shellHead div {
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.main-sobre--shellHead > span > h3{
+    max-width: fit-content;
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+
+.main-sobre--shellUser {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.main-sobre--shellDir {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
 
 @media (max-width: 800px)
 {
-    #main-sobre--container div {
+    #main-sobre--container > div {
         justify-content: flex-start;
     }
 
@@ -49,13 +102,16 @@
 
     #main-sobre--container div p{
         max-width: max-content;
-        margin: 0 .5rem;
     }
 
     #main-sobre--container div ul {
         max-width: max-content;
         margin: .5rem;
         padding: 0;
+    }
+
+    .main-sobre--shellHead > span {
+        margin-left: 0;
     }
     
 }
@@ -71,15 +127,25 @@
 
     #main-sobre--container div p{
         max-width: max-content;
-        margin: 1rem 0;
     }
 
     #main-sobre--container div ul {
-        margin: 0;
+        margin: 1rem 0 0 0;
         font-size: .9rem;
     }
 
-    #main-sobre--container div {
+    #main-sobre--container > div {
         justify-content: flex-start;
+    }
+
+    .main-sobre--shellHead {
+        margin: 1rem 0 0 0;
+        align-items: flex-end;
+        padding-bottom: 1rem;
+    }
+
+    .main-sobre--shellHead > span{
+        position: absolute;
+        margin-bottom: -1rem;
     }
 }
