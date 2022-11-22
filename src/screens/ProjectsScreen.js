@@ -35,7 +35,7 @@ export default function ProjectsScreen() {
                                         <li>API Rest.</li>
                                         <li>Arquitetura de diretórios: MVC.</li>
                                         <li>JPA: Framework para abstrair a persistência de Dados.</li>
-                                        <li>SpringSecurity: Lib para controle de autenticação e autorização &lsaquo;=&rsaquo; Entidade/Model.</li>
+                                        <li>SpringSecurity: Lib para controle de autenticação e autorização.</li>
                                         <li>Persistência de dados: MySQL</li>
                                         <li>Testes realizados no shell Bash com uso do curl (binários/comandos presentes no arquivo txt).</li>
                                     </ul>
