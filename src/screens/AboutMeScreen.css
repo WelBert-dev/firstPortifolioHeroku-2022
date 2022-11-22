@@ -17,7 +17,7 @@
 
 #main-sobre--container > div p{
     font-size: 1rem;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: var(--main-color);
     text-shadow: 0.05rem 0.05rem 0.00009rem black;
     background-color: rgb(32, 10, 28);
@@ -93,7 +93,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }
-
 
 @media (max-width: 800px)
 {

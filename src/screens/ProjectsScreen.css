@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: .5rem;
+    cursor: default;
 }
 
 .projects-title--container > div {
@@ -91,7 +92,7 @@
 .projects-title--container p {
     font-family: cursive;
     text-align: center;
-    font-size: .8rem;
+    font-size: .9rem;
     color: white;
     text-decoration: underline;
     padding: 0 0 .2rem 0;
@@ -100,7 +101,7 @@
 .projects-subtitle {
     font-family: 'press start 2p';
     color: #c81515;
-    font-size: .9rem;
+    font-size: .8rem;
     text-shadow: 1px 1px black;
     padding: 1rem 1rem 1rem 0;
 }
@@ -116,7 +117,7 @@
 .projects-description--container ul {
     list-style-type: square;
     list-style-position: inside;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .projects-description--container ul li::marker{

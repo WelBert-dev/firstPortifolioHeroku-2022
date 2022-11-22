@@ -7,6 +7,7 @@ import { BsFillFolderSymlinkFill } from 'react-icons/bs';
 import amazonAmostra from '../resources/amazona.jpg';
 import netflixAmostra from '../resources/NetFlixCloneWeb.gif';
 import auauMiauNoFrameworkAmostra from '../resources/auauMiauNoFramework.png';
+import restauranteIfspAmostra from '../resources/restauranteIfspAmostra.png';
 
 export default function ProjectsScreen() {
     return (
@@ -14,7 +15,56 @@ export default function ProjectsScreen() {
             <div>
                 <h1 className="main-title">&lsaquo;Projetos&rsaquo;</h1>
                 <hr />
-                <div className="wrapper-projects">         
+                <div className="wrapper-projects">     
+                <article className="projects-single">
+                    <img className="projects-logo" src={restauranteIfspAmostra} alt="Amostra Amazon" ></img>
+                        <div className="projects-right">
+                            <div className="projects-title--container">
+                                <div>
+                                    <h3 className="projects-title">Restaurante IFSP Springboot e ReactJs</h3>
+                                    <a href="https://github.com/WelBert-dev/backupLg3Ecommerce-Springboot" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                                </div>
+                                <p>Código do projeto clicando no botão a cima</p>
+                                <span>WEB E2E</span>
+                            </div>
+                            <ul className="projects-description--container">
+                                <li>
+                                    <h3 class="projects-subtitle">BackEnd</h3>
+                                    <ul>
+                                        <li>Java: Springboot (Estudando atualmente).</li>
+                                        <li>API Rest.</li>
+                                        <li>Arquitetura de diretórios: MVC.</li>
+                                        <li>JPA: Framework para abstrair a persistência de Dados.</li>
+                                        <li>SpringSecurity: Lib para controle de autenticação e autorização &lsaquo;=&rsaquo; Entidade/Model.</li>
+                                        <li>Persistência de dados: MySQL</li>
+                                        <li>Testes realizados no shell Bash com uso do curl (binários/comandos presentes no arquivo txt).</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3 class="projects-subtitle">FrontEnd</h3>
+                                    <ul className="projects-frontend--container">
+                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox.</li>
+                                        <li>ReactJs: Componentes, Props, Eventos, Hooks, Router, Axios.</li>
+                                        <li>Redux: Store, Reducers, Actions.</li>
+                                        <li>Dependência de desenvolvimento: ESLint.</li>
+                                        <li>Apesar de utilizar react, grande parte da lógica esta em JS Vanilla.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div className="projects-subdescription--container">
+                                <h3 class="projects-subtitle">Descrição</h3>
+                                <p>
+                                    Trabalho final de semestre da disciplina LG3 (Linguagem e Tecnicas de Programação) aonde tomei a abordagem de separar as
+                                    tecnologias web do core do sistema (API Springboot) diminuindo assim acoplamentos das mesmas, melhorando a manutenção e escalabilidade
+                                    e melhorando a possibilidade de expansão dos módulos (Caso queria adotar novas tecnologias na camada de apresentação, como um projeto Mobile por ex),
+                                    escolhi dessa vez o Springboot pois estou estudando Java atualmente e essa linguagem ganhou meu coração, pois é uma linguagem bem madura e particularmente mais
+                                    "clean" a sintaxe se comparado com C# que é uma cópia descarada dela (foi inspirada nela), além de eu ser entusiasta GNU e o Java é Multiplataforma, 
+                                    então é nela que pretendo me especializar e se tudo der certo ano que vem pretendo tirar a certificação da Oracle...
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <hr />    
                     <article className="projects-single">
                     <img className="projects-logo" src={amazonAmostra} alt="Amostra Amazon" ></img>
                         <div className="projects-right">
@@ -30,23 +80,23 @@ export default function ProjectsScreen() {
                                 <li>
                                     <h3 class="projects-subtitle">BackEnd</h3>
                                     <ul>
-                                        <li>C#: Asp.NetCoreMVC</li>
-                                        <li>API Mircroservices</li>
-                                        <li>80% REST</li>
-                                        <li>Arquitetura de diretórios: MVC</li>
-                                        <li>EntityframeworkCore: Framework para abstrair a persistência de Dados</li>
-                                        <li>Migrations: Lib para manter o banco de dados e a aplicação atualizados/conectados</li>
-                                        <li>AutoMap: Lib para fazer mapeamento/Parsing DTO &lsaquo;=&rsaquo; Entidade/Model</li>
-                                        <li>Persistência de dados: MySQL</li>
+                                        <li>C#: Asp.NetCoreMVC.</li>
+                                        <li>API Mircroservices.</li>
+                                        <li>80% REST.</li>
+                                        <li>Arquitetura de diretórios: MVC.</li>
+                                        <li>EntityframeworkCore: Framework para abstrair a persistência de Dados.</li>
+                                        <li>Migrations: Lib para manter o banco de dados e a aplicação atualizados/conectados.</li>
+                                        <li>AutoMap: Lib para fazer mapeamento/Parsing DTO &lsaquo;=&rsaquo; Entidade/Model.</li>
+                                        <li>Persistência de dados: MySQL.</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <h3 class="projects-subtitle">FrontEnd</h3>
                                     <ul className="projects-frontend--container">
-                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox</li>
-                                        <li>ReactJs: Componentes, Props, Eventos, Hooks, Router, Axios</li>
-                                        <li>Redux: Store, Reducers, Actions</li>
-                                        <li>Dependência de desenvolvimento: ESLint</li>
+                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox.</li>
+                                        <li>ReactJs: Componentes, Props, Eventos, Hooks, Router, Axios.</li>
+                                        <li>Redux: Store, Reducers, Actions.</li>
+                                        <li>Dependência de desenvolvimento: ESLint.</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -95,8 +145,8 @@ export default function ProjectsScreen() {
                                 <li>
                                     <h3 class="projects-subtitle">FrontEnd</h3>
                                     <ul className="projects-frontend--container">
-                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox</li>
-                                        <li>ReactJs: Componentes, Props, Eventos, Hooks</li>
+                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox.</li>
+                                        <li>ReactJs: Componentes, Props, Eventos, Hooks.</li>
                                         <li>JavaScript Vanila: Evento scroll</li>
                                     </ul>
                                 </li>
@@ -130,22 +180,22 @@ export default function ProjectsScreen() {
                                 <li>
                                     <h3 class="projects-subtitle">BackEnd ("Back do front")</h3>
                                     <ul>
-                                        <li>Persistência de dados utilizando Local Storage</li>
-                                        <li>Utilizando Js puro, para percorrer e criar elementos HTML</li>
-                                        <li>Utilizei a abordagem de POO com Js para criar as Entidades e persistir dados</li>
-                                        <li>Conversões de Entidades para Json ao armazenar e retornar dados</li>
-                                        <li>Resumo: CRUD Client-Side</li>
+                                        <li>Persistência de dados utilizando Local Storage.</li>
+                                        <li>Utilizando Js puro, para percorrer e criar elementos HTML.</li>
+                                        <li>Utilizei a abordagem de POO com Js para criar as Entidades e persistir dados.</li>
+                                        <li>Conversões de Entidades para Json ao armazenar e retornar dados.</li>
+                                        <li>Resumo: CRUD Client-Side.</li>
                                         <li>Trabalho do curso!</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <h3 class="projects-subtitle">FrontEnd</h3>
                                     <ul className="projects-frontend--container">
-                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox</li>
-                                        <li>Animações CSS: Sucesso e Erro ao registrar clientes</li>
-                                        <li>Componentização, para ja ir acostumando com ReactJS</li>
-                                        <li>Herança de classes, utilizado a mesma classe em vários comps "iguais"</li>
-                                        <li>Js Vanilla</li>
+                                        <li>HTML5 e CSS3: Elementos semânticos, CSS Grid, Flexbox.</li>
+                                        <li>Animações CSS: Sucesso e Erro ao registrar clientes.</li>
+                                        <li>Componentização, para ja ir acostumando com ReactJS.</li>
+                                        <li>Herança de classes, utilizado a mesma classe em vários comps "iguais".</li>
+                                        <li>Js Vanilla.</li>
                                     </ul>
                                 </li>
                             </ul>
