@@ -1,0 +1,18 @@
+
+
+- Common entre todos contextos:
+
+
+- Novas features:
+  - Adicionar possíbilidade de entrar em contato pelo proprio site,
+    Com campos textos que seram enviados para algum log do servidor, assim eu entro em contato. (Contrame meus serviços).
+
+
+- HomeScreen:
+  - Ajustar a disposição do eixo Y centralizando a logo "Desenvolvedor FullStack...".
+  - Modificar a navBar deixando ela em 3D ao lado da logo "Desenvolvedor FullStack...". (Apenas para essa Screen).
+  - Adicionar funcionalidade onClick no Icon "Whatsapp" para poder adicionar automaticamente o meu número.
+  - Adicionar funcionalidade onClick no Icon "Email" para poder enviar um email automaticamente.
+
+- AboutMeScreen:
+
