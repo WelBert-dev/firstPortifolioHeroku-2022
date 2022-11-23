@@ -24,6 +24,7 @@
   
   - Modificar a logo "Desenvolvedor FullStack..." adicionando uma animação nela.
 
+
 - AboutMeScreen:
   - Adicionar funcionalidade onClick no Icon "[+]" do terminal shell, 
     abrindo assim uma nova janela e nela alguns comandos:
@@ -95,8 +96,22 @@
   
   - Adicionar Icon "Download" no container do título principal dos projetos, ao lado do icone de redirecionamento para o repositório git,
     disponibilizando assim o código completo do projeto (Para os curiosos rsrs),
-    * Se optado por adicionar esse 
-
+    * Junto com o código mandar um manual de como dar start na aplicação, com todos os passos a passos e dependências nele.
+  
+  - Modificar a label "Código do projeto clicando no botão a cima" para "Código do projeto (Open source) disponível para download ou para vizualizar no navegador clicando em algum dos ícones a cima.".
+  
+  - Ajustar o tamanho da font-size do título principal dos projetos (em telas maiores ou igual a 800px), está muito grande (diminuir para .8rem).
+  
+  
+- CurriculumVitaeScreen:
+  - Modificar a banda/seção "Habilidades" na coluna a esquerda, pois faltam adicionar novas Skills e colocar a data de estudos correspondentes,
+    (seguindo a mesma lógica da adição dessas informações em SkillScreens). Para dar o entendimento de que eu não estudo essas tec mais. 
+    (Essa informação será apenas para Skills "obsoletas").
+    
+ 
+    
+    
+  
 
 
 
