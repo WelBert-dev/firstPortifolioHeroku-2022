@@ -1,12 +1,15 @@
 
 
 - Common entre todos contextos:
-
-
+  - Ajustar a disposição do eixo Y centralizando (deixando o mesmo espaçamento entre a navbar e a main) do titulo geral de todas as Screens ".main-title".
+    *Obs: Melhorar também para contextos de telas menores (Mobile/Tablets).
+    
 - Novas features:
   - Adicionar possíbilidade de entrar em contato pelo proprio site,
     Com campos textos que seram enviados para algum log do servidor, assim eu entro em contato. (Contrame meus serviços).
-
+  - Adicionar funcionalidade no onHover dos Icons do footer, para que quando acontecer sair um rato de "baixo" deles.
+  - Melhorar o dimensionamento dos Icons, deixando todos do mesmo tamanho (width e height).
+  - 
 
 - HomeScreen:
   - Ajustar a disposição do eixo Y centralizando a logo "Desenvolvedor FullStack...".
@@ -37,4 +40,23 @@
   
   - Adicionar funcionalidade nos Icones do footer, e ao ocorrer hover sai um rato de tras dos Icones.
   - 
+
+- SkillsScreen:
+  - Adicionar novas Skills (Git, Scrum, Shell Script Bash)
+  - Modificar as Skills mais antigas (2021) que eu não estudo mais adicionando o período que eu estudei elas.
+  - Modificar a porcentagem de instrução nas progressbar das Skills de acordo com ./skillsPercents23-11-2022.txt.
+  - Adicionar funcionalidade onClick nos Icons das Skills, 
+    Ou para redirecionar para os respectivos repositórios no github, ou pesquisar suas definições em sites confiáveis.
+
+
+
+
+
+
+
+
+
+
+
+
 
