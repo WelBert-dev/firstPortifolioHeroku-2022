@@ -15,4 +15,26 @@
   - Adicionar funcionalidade onClick no Icon "Email" para poder enviar um email automaticamente.
 
 - AboutMeScreen:
+  - Adicionar funcionalidade onClick no Icon "[+]" do terminal shell, 
+    abrindo assim uma nova janela e nela alguns comandos:
+      * Mensagem: Digite algum dos comando a baixo para modificar ou animar o site ;D
+      > darkMode -off: Desativa o modo escuro do site.
+      > galaxyTheme -on: Ativa o modo galáxia do site, deixando ele nessa temática.
+      
+      > gravity -off: Desativa a gravidade, e os componentes começam a cair.
+      > gravity -navBar -off: Desativa a gravidade apenas da navBar.
+      
+      > game -on: Ativa o modo game e é possível jogar nessa tela (Plano bem ousado).
+      > gun -on: Ativa o modo arma, e a seta/cursor vira um minigun, sendo possível atirar nos componentes do site.
+        - Para cada componente atingido marcas de bala ou começam a quebrar.
+      > marionBross -on: Site vira cenário do mário, sendo possível andar com ele na tela e colisão com componentes do site.
+      
+      > search -google <Flag>: Realiza a busca no google (_Blank) ou abre uma nova janela no terminal com o html da busca.
+      > play -youtube -URL=<Link>: Mesma lógica do search.
+      
+  - Adicionar funcionalidade onClickl no Icon "Pesquisar" do terminal shell,
+    Abrirá um modal, com os buscadores (Duckduck go, google, youtube...), (_Blank) ou abre uma nova janela no terminal com o html da busca.
+  
+  - Adicionar funcionalidade nos Icones do footer, e ao ocorrer hover sai um rato de tras dos Icones.
+  - 
 
