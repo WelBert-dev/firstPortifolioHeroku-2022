@@ -5,11 +5,15 @@ react: 70%
 
 java: 70%
 
-c#: 50%
-Asp.NetCore: 30%
+c#: 50% (06/2021 - 12/2021)
+Asp.NetCore: 30% (08/2021 - 12/2021)
 
 MySQL: 70%
 
-Python: 40%
+Python: 40% (01/2021 - 06/2021)
 GNU: 90%
-Shell Script (Bash): 40%
+Shell Script (Bash): 40% (06/2021 - 12/2021)
+Git: 60% 
+
+>= 70: color gold
+other: color green
