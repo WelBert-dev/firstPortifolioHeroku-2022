@@ -7,15 +7,22 @@
 - Novas features:
   - Adicionar possíbilidade de entrar em contato pelo proprio site,
     Com campos textos que seram enviados para algum log do servidor, assim eu entro em contato. (Contrame meus serviços).
+    
   - Adicionar funcionalidade no onHover dos Icons do footer, para que quando acontecer sair um rato de "baixo" deles.
-  - Melhorar o dimensionamento dos Icons, deixando todos do mesmo tamanho (width e height).
-  - 
-
+  
+  - Modificar layout geral para simular uma Tv tubo retro com as informações atuais do site dentro dela.
+    - E para contextos Mobile (telas menores ou iguais a 800px) simular um gameboy retro, ao invés de uma Tv.
+  
 - HomeScreen:
   - Ajustar a disposição do eixo Y centralizando a logo "Desenvolvedor FullStack...".
+  
   - Modificar a navBar deixando ela em 3D ao lado da logo "Desenvolvedor FullStack...". (Apenas para essa Screen).
+  
   - Adicionar funcionalidade onClick no Icon "Whatsapp" para poder adicionar automaticamente o meu número.
+  
   - Adicionar funcionalidade onClick no Icon "Email" para poder enviar um email automaticamente.
+  
+  - Modificar a logo "Desenvolvedor FullStack..." adicionando uma animação nela.
 
 - AboutMeScreen:
   - Adicionar funcionalidade onClick no Icon "[+]" do terminal shell, 
@@ -35,19 +42,60 @@
       > search -google <Flag>: Realiza a busca no google (_Blank) ou abre uma nova janela no terminal com o html da busca.
       > play -youtube -URL=<Link>: Mesma lógica do search.
       
-  - Adicionar funcionalidade onClickl no Icon "Pesquisar" do terminal shell,
+  - Adicionar funcionalidade onClick no Icon "Pesquisar" do terminal shell,
     Abrirá um modal, com os buscadores (Duckduck go, google, youtube...), (_Blank) ou abre uma nova janela no terminal com o html da busca.
+    
+  - Adicionar funcionalidade onClick no Icon "Minimizar" do terminal shell,
+    Animando e fazendo ele minimizar até o footer, e assim ficando um icone de terminal.
+    * Ao clicar nesse Icon terminal, ele é expandido e retorna para a posição inicial.
   
-  - Adicionar funcionalidade nos Icones do footer, e ao ocorrer hover sai um rato de tras dos Icones.
-  - 
+  - Adicionar funcionalidade onClick no Icon "Maximizar" do terminal shell,
+    Animando e fazendo ele maximizar e ocupar a seção main por completo (Deixando visivel apenas a navbar), 
+    fazendo os outros componentes desta mesma seção ficarem escondidos.
+    * Ao máximizar o Icon "Maximizar" é alterado para "dois quadradinhos" igual é no navegador e etc...
+      * E ao clicar nele, o terminal retorna para a posição/dimensionamento anterior/default.
+        * Outros componentes da tela voltam a ficar visíveis aos usuários.
+  
+  - Adicionar funcionalidade onClick no icon "Fechar" do terminal shell animando e minimizando até a navbar na ultima posição,
+    (Mesma lógica do Icon "Minimizar", com essa diferença de ir para cima.
+    * Segue a mesma lógica também sobre, ao clicar sobre o Icon terminal na navbar, animação do terminal retornando para a posição inicial.
+  
+  - Adicionar animação no texto do terminal, como se estivesse sendo digitado, cada palavra vai surgindo e barulho "tec tec tec".
+    - Ao terminar, exibe mensagem:
+      > Digite "clean" para limpar o terminal, e assim digitar comandos nele, esses comandos alteram o comportamento do site,
+        ou adicionam animações nele ;D
+      > Para saber os comandos disponíveis digite "help", e basta escolher um e digita-lo para ver a mágica acontecer! rsrs.
+      
+    - Ao digitar "help" mensagem das funcionalidades ditas anteriormente é exibido. (As mesmas disponíveis quando aberto uma nova janela do terminal "[+]")
+  
 
 - SkillsScreen:
-  - Adicionar novas Skills (Git, Scrum, Shell Script Bash)
-  - Modificar as Skills mais antigas (2021) que eu não estudo mais adicionando o período que eu estudei elas.
-  - Modificar a porcentagem de instrução nas progressbar das Skills de acordo com ./skillsPercents23-11-2022.txt.
+  - Modificar as Skills mais antigas (2021) que eu não estudo mais adicionando o período que eu estudei elas. "(01/2021 até 06/2021)".
+  
+  - Modificar a porcentagem de instrução e cor nas progressbar das Skills de acordo com ./skillsPercents23-11-2022.txt. 
+    * Aonde as Skills novas (com maior porcentagem de instrução) ficam gold.
+    * As Skills mais antigas (com menor porcentagem de instrução) ficam green claro.
+    * Outras Skills com nível de instrução intermediário continuam da mesma cor que é hoje.
+  
   - Adicionar funcionalidade onClick nos Icons das Skills, 
     Ou para redirecionar para os respectivos repositórios no github, ou pesquisar suas definições em sites confiáveis.
-
+    
+  - Melhorar o dimensionamento dos Icons, deixando todos do mesmo tamanho (width e height).
+  
+  - Adicionar novas Skills (Git, Scrum, Shell Script Bash), já aplicando as novas lógicas ditas a cima.
+  
+  
+- ProjectsScreen:
+  - Modificar as imagens demonstrativas dos projetos, substituindo todas por Gifs animados (Igual ao clone da netflix).
+  
+  - Adicionar um vídeo explicativo sobre cada projeto, dispondo eles abaixo das imagens/gifs deles.
+  
+  - Adicionar funcionalidade onClick sobre as Gifs/Imagens dos projetos para que quando clicado (_Blank) é redirecionado ou para o repositório do código,
+    ou melhorar os projetos e fazer deploy no heroku.
+  
+  - Adicionar Icon "Download" no container do título principal dos projetos, ao lado do icone de redirecionamento para o repositório git,
+    disponibilizando assim o código completo do projeto (Para os curiosos rsrs),
+    * Se optado por adicionar esse 
 
 
 
