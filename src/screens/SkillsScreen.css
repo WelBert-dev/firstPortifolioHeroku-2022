@@ -62,6 +62,14 @@
     font-family: cursive;
     text-shadow: .1rem .1rem 0.08rem black;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-tec > .right > span{
+    color: #ffd700;
+    font-size: .7rem;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 }
 
 progress:not(value) {
@@ -89,7 +97,7 @@ progress[value] {
     color: royalblue;
     
     position: relative;
-    margin: 0 0 1.5em; 
+    margin: 0 0 4px; 
 }
   
   /*
@@ -113,6 +121,8 @@ progress[value] {
     /* Let's animate this */
     animation: animate-stripes 5s linear infinite;
 }
+
+
   
 @keyframes animate-stripes { 100% { background-position: -100px 0; } }
   
@@ -315,6 +325,10 @@ p[data-value] {
     
     .right {
         font-size: .8rem;
+    }
+
+    .skill-tec > .right > span{
+        font-size: .6rem;
     }
 }
 
