@@ -3,7 +3,7 @@ footer {
     width: 100%;
     background: #226015;
     border-radius: 5px;
-    font-size: .9rem;
+    font-size: .7rem;
     color: white;
     font-family: var(--main-fontFamily);
     font-weight: bold;
@@ -24,7 +24,7 @@ footer > div {
 }
 
 footer svg {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
 }
 
@@ -33,7 +33,7 @@ footer span {
 }
 
 footer h3 {
-    font-size: .8rem;
+    font-size: .7rem;
     color: #08ff00;
     text-shadow: 1px 1px black;
 }
@@ -51,6 +51,10 @@ footer h3 {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    border-bottom: 3px double #000;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 4px;
 }
 
 .footer-icons--click svg {
@@ -59,12 +63,20 @@ footer h3 {
     transition: all ease-in-out .3s;
 }
 
+.footer-icons--click a:nth-child(1) > svg {
+    border-bottom-left-radius: 10px;
+}
+
+.footer-icons--click a:nth-child(5) > svg {
+    border-bottom-right-radius: 10px;
+}
+
 .footer-icons--click svg:hover {
     box-shadow: none;
     cursor: pointer;
 }
 
-.footer-icons--noClick {
+/* .footer-icons--noClick {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -80,8 +92,8 @@ footer h3 {
 }
 
 .footer-icons--noClick div p {
-    font-size: .8rem;
-}
+    font-size: .7rem;
+} */
 
 
 @media (max-width: 800px)
@@ -90,9 +102,9 @@ footer h3 {
         font-size: 2rem;
     }
 
-    .footer-icons--noClick div svg {
+    /* .footer-icons--noClick div svg {
         font-size: 1.5rem;
-    }
+    } */
 
     footer span {
         font-size: 1.2rem;
@@ -114,7 +126,7 @@ footer h3 {
         align-items: center;
     }
 
-    .footer-icons--noClick {
+    /* .footer-icons--noClick {
         align-items: center;
-    }
+    } */
 }
