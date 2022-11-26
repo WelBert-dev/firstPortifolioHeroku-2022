@@ -38,12 +38,6 @@ export default function AboutMeScreen() {
                         Obs: Trabalhando como freelancer nos dias atuais.
                         </p>
                     </div>
-                    <ul>
-                        <li>Nacionalidade: Brasileira</li>
-                        <li>Idade: 22 Anos</li>
-                        <li>Endereço: Rua Grécia, Jardim Celani Salto - SP</li>
-                        <li>CEP: 13326-130</li>
-                    </ul>
                 </div>             
             </div>
         </section>
