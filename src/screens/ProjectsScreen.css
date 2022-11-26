@@ -90,7 +90,7 @@
 }
 
 .projects-title--container p {
-    font-family: cursive;
+    font-family: var(--main-fontFamily);
     text-align: center;
     font-size: .9rem;
     color: white;
@@ -108,7 +108,7 @@
 
 .projects-description--container {
     margin: 0 1rem 0 1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--main-fontFamily);
     color: black;
     font-weight: bold;
     list-style-type: none;

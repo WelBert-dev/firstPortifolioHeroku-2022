@@ -5,7 +5,7 @@ footer {
     border-radius: 5px;
     font-size: .9rem;
     color: white;
-    font-family: Serif, Times New Roman;
+    font-family: var(--main-fontFamily);
     font-weight: bold;
     text-align: center;
     line-height: 1rem;
