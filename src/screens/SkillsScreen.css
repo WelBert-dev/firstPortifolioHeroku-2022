@@ -350,4 +350,7 @@ p[data-value] {
         width: 4rem;
         height: .8rem;
     }
+    .skill-tec > .right > span{
+        font-size: .4rem;
+    }
 }
